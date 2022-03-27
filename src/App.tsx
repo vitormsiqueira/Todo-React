@@ -52,7 +52,7 @@ const App = () => {
           </C.ContainerList>
         </C.Area>
       </C.Container>
-      <C.FooterContainer><h3>Developed by <a href="https://github.com/vitormsiqueira">Vitor Siqueira</a> </h3></C.FooterContainer>
+      <C.FooterContainer><h3>® Developed by <a href="https://github.com/vitormsiqueira">Vitor Siqueira</a> </h3></C.FooterContainer>
     </C.ContainerBody>
 
   );
