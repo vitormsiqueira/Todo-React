@@ -39,15 +39,35 @@ export const ContainerList = styled.div`
 `;
 
 
+export const ContainerButton = styled.div`
+    border-bottom: 1px solid rgb(0, 0, 0, .1);
+    padding: 0;
+`;
+
 export const ContainerActionsList = styled.div`
     display: flex;
     
     button {
-        padding: 20px 40px;
         background-color: transparent;
         border: none;
-        border-bottom: 1px solid rgb(0, 0, 0, .1);
+        padding: 0;
     }
+
+    button>img{
+        width: 20px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    button>img:hover{
+        width: 26px;
+        padding: 17px;
+        margin: 10px;
+        background-color: rgb(0,0,0,.1);
+        border: none;
+        border-radius: 100px;
+    }
+
 
     :hover{
         background-color: rgb(0, 0, 0, 0.05);

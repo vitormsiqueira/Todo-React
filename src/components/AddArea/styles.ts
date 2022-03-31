@@ -11,7 +11,7 @@ export const Container = styled.div`
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .1);
 
     img{
-        padding: 0px 15px;
+        padding: 0px 5px;
         background-color: transparent;
     }
 

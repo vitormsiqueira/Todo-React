@@ -4,7 +4,7 @@ import { Item } from './types/Item';
 import { ListItem } from './components/ListItem'
 import { AddArea } from './components/AddArea';
 
-import img from '../src/assets/images/delete.png';
+import img from './assets/images/delete.png';
 
 const App = () => {
 
@@ -43,7 +43,9 @@ const App = () => {
             {list.map((item, index) => (
               <C.ContainerActionsList>
                 <ListItem key={index} item={item} />
-                <button onClick={() => handleRemoveTask(item.id)}><img src={img} width="20px" key={item.id} /></button>
+                <C.ContainerButton>
+                  <button onClick={() => handleRemoveTask(item.id)}><img src={img} key={item.id} /></button>
+                </C.ContainerButton>
               </C.ContainerActionsList>
             ))}
 
